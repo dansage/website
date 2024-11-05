@@ -1,0 +1,5 @@
+# exclude generated files from the repository
+/public/css/app.css
+
+# exclude `node_modules` to reduce repository size
+/src/node_modules/
