@@ -11,5 +11,5 @@ dependencies:
 # using Node.js, compile the stylesheets using only the required classes
 styles: dependencies
 	@cd ./src/ && \
-	npx tailwindcss -i css/source.css -o ../public/css/app.css --minify && \
+	npx @tailwindcss/cli -i css/source.css -o ../public/css/app.css --minify && \
 	cd ..
